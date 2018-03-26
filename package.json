@@ -1,0 +1,19 @@
+{
+  "name": "san-rafael-veg-fires",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run directions",
+    "directions": "node scripts/get-directions.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "CC-BY-SA",
+  "dependencies": {
+    "@mapbox/polyline": "^0.2.0",
+    "axios": "^0.18.0",
+    "d3": "^5.0.0"
+  }
+}
