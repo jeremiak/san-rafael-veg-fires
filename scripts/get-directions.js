@@ -3,6 +3,8 @@ const path = require('path')
 const util = require('util')
 
 const d3 = require('d3')
+const { queue } = require('d3-queue')
+const delayMap = require('delay-map')
 const http = require('axios')
 const polyline = require('@mapbox/polyline')
 
@@ -26,7 +28,13 @@ const getDirections = (start, end) => {
   return http.get(url).then(response => {
     if (response.status !== 200) throw new Error(response.status)
 
-    const steps = response.data.routes[0].legs[0].steps
+    let steps
+    try {
+      steps = response.data.routes[0].legs[0].steps
+    } catch (e) {
+      console.error(e)
+      return
+    }
 
     // combine all the line strings into one
     return steps.map(step => (
@@ -38,6 +46,26 @@ const getDirections = (start, end) => {
     }).reduce((accum, next) => {
       return accum.concat(next)
     }, [])
+  }).catch(err => {
+    console.error(url, err)
+  })
+}
+
+const fetchDirections = (fire, cb) => {
+  const start = fire.address
+  const end = `${fire.station.address} San Rafael CA`
+  getDirections(start, end).then(steps => {
+    const feature = {
+      type: 'Feature',
+      geometry: {
+        type: 'LineString',
+        coordinates: steps
+      },
+      properties: {
+        ...fire
+      }
+    }
+    cb(null, feature)
   })
 }
 
@@ -58,26 +86,19 @@ Promise.all(files).then(([fires, stations]) => {
         address: matchingStation ? matchingStation.Address : null
       }
     }
-  }).slice(0, 5).map(fire => {
-    const start = fire.address
-    const end = `${fire.station.address} San Rafael CA`
-    return getDirections(start, end).then(steps => ({
-      type: 'Feature',
-      geometry: {
-        type: 'LineString',
-        coordinates: steps
-      },
-      properties: {
-        ...fire
-      }
-    }))
   })
 
-  Promise.all(directions).then(d => {
+  const q = queue(2)
+
+  directions.forEach(fire => {
+    if (fire.station.address) q.defer(fetchDirections, fire)
+  })
+
+  q.awaitAll((err, features) => {
     const dest = dataPath('driving.geojson')
     const collection = {
       type: 'FeatureCollection',
-      features: d
+      features
     }
     write(dest, JSON.stringify(collection)).then(() => {
       console.log(`done! wrote directions to ${dest}`)

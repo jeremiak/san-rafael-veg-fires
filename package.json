@@ -14,6 +14,8 @@
   "dependencies": {
     "@mapbox/polyline": "^0.2.0",
     "axios": "^0.18.0",
-    "d3": "^5.0.0"
+    "d3": "^5.0.0",
+    "d3-queue": "^3.0.7",
+    "delay-map": "^1.0.1"
   }
 }
