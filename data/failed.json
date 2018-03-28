@@ -1,0 +1,1058 @@
+[
+  {
+    "id": "2006-0600458",
+    "date": "2006-06-09",
+    "time": "13:50:47",
+    "address": "810 BUTTERNUT DR San Rafael CA 94903",
+    "lat": "38.0113",
+    "long": "-122.5651",
+    "station": {
+      "number": "8",
+      "address": null
+    }
+  },
+  {
+    "id": "2006-0606474",
+    "date": "2006-05-25",
+    "time": "14:23:32",
+    "address": "301 SMITH RANCH RD San Rafael CA 94903",
+    "lat": "38.024",
+    "long": "-122.5237",
+    "station": {
+      "number": "",
+      "address": null
+    }
+  },
+  {
+    "id": "2006-0600407",
+    "date": "2006-05-25",
+    "time": "14:06:03",
+    "address": "200 MILLER CREEK RD San Rafael CA 94903",
+    "lat": "38.0331",
+    "long": "-122.5424",
+    "station": {
+      "number": "8",
+      "address": null
+    }
+  },
+  {
+    "id": "2006-0600790",
+    "date": "2006-02-06",
+    "time": "12:00:41",
+    "address": "26 STEVEN WY San Rafael CA 94903",
+    "lat": "38.0058",
+    "long": "-122.5238",
+    "station": {
+      "number": "",
+      "address": null
+    }
+  },
+  {
+    "id": "2007-0700479",
+    "date": "2007-06-27",
+    "time": "23:11:11",
+    "address": "820 IDYLBERRY RD San Rafael CA 94903",
+    "lat": "38.0286",
+    "long": "-122.5604",
+    "station": {
+      "number": "8",
+      "address": null
+    }
+  },
+  {
+    "id": "2007-0702979",
+    "date": "2007-06-27",
+    "time": "19:04:44",
+    "address": "1408 MISSION AVE San Rafael CA 94901",
+    "lat": "37.9757",
+    "long": "-122.532",
+    "station": {
+      "number": "1",
+      "address": null
+    }
+  },
+  {
+    "id": "2007-070462",
+    "date": "2007-06-22",
+    "time": "16:12:22",
+    "address": "1 SAINT VINCENTS DR San Rafael CA 94903",
+    "lat": "38.0345",
+    "long": "-122.5266",
+    "station": {
+      "number": "8",
+      "address": null
+    }
+  },
+  {
+    "id": "2007-0702738",
+    "date": "2007-06-16",
+    "time": "12:09:31",
+    "address": "14 CORTE CAPISTRANO San Rafael CA 94903",
+    "lat": "38.0209",
+    "long": "-122.5452",
+    "station": {
+      "number": "1",
+      "address": null
+    }
+  },
+  {
+    "id": "2007-0702708",
+    "date": "2007-06-14",
+    "time": "15:58:05",
+    "address": "227 LUCAS PARK DR San Rafael CA 94903",
+    "lat": "38.0246",
+    "long": "-122.5453",
+    "station": {
+      "number": "",
+      "address": null
+    }
+  },
+  {
+    "id": "2007-0702565",
+    "date": "2007-06-06",
+    "time": "17:34:27",
+    "address": "1515 THIRD ST San Rafael CA 95401",
+    "lat": "37.9722",
+    "long": "-122.5337",
+    "station": {
+      "number": "1",
+      "address": null
+    }
+  },
+  {
+    "id": "2007-0702563",
+    "date": "2007-06-06",
+    "time": "16:06:04",
+    "address": "179 PAUL DR San Rafael CA 94903",
+    "lat": "38.0187",
+    "long": "-122.5371",
+    "station": {
+      "number": "",
+      "address": null
+    }
+  },
+  {
+    "id": "2007-0702438",
+    "date": "2007-05-29",
+    "time": "12:28:21",
+    "address": "145 JORDAN ST San Rafael CA 94901",
+    "lat": "37.9647",
+    "long": "-122.5233",
+    "station": {
+      "number": "1",
+      "address": null
+    }
+  },
+  {
+    "id": "2007-0700275",
+    "date": "2007-04-13",
+    "time": "11:10:09",
+    "address": "1 SAINT VINCENTS DR San Rafael CA 94903",
+    "lat": "38.0345",
+    "long": "-122.5266",
+    "station": {
+      "number": "8",
+      "address": null
+    }
+  },
+  {
+    "id": "2007-0700236",
+    "date": "2007-03-31",
+    "time": "15:55:03",
+    "address": "1 SAINT VINCENTS DR San Rafael CA 94903",
+    "lat": "38.0345",
+    "long": "-122.5266",
+    "station": {
+      "number": "8",
+      "address": null
+    }
+  },
+  {
+    "id": "2007-0701274",
+    "date": "2007-03-18",
+    "time": "14:08:31",
+    "address": "1408 MISSION AVE San Rafael CA 94901",
+    "lat": "37.9757",
+    "long": "-122.532",
+    "station": {
+      "number": "1",
+      "address": null
+    }
+  },
+  {
+    "id": "2006-0609181",
+    "date": "2006-10-19",
+    "time": "12:29:12",
+    "address": "34 BAYWOOD TER San Rafael CA 94901",
+    "lat": "37.9597",
+    "long": "-122.5212",
+    "station": {
+      "number": "1",
+      "address": null
+    }
+  },
+  {
+    "id": "2006-0600733",
+    "date": "2006-09-20",
+    "time": "6:41:18",
+    "address": "120 N REDWOOD DR San Rafael CA 94903",
+    "lat": "38.0208",
+    "long": "-122.5361",
+    "station": {
+      "number": "8",
+      "address": null
+    }
+  },
+  {
+    "id": "2006-0608179",
+    "date": "2006-08-27",
+    "time": "23:22:06",
+    "address": "1710 LINCOLN AVE San Rafael CA 94901",
+    "lat": "37.9851",
+    "long": "-122.5251",
+    "station": {
+      "number": "1",
+      "address": null
+    }
+  },
+  {
+    "id": "2006-0607624",
+    "date": "2006-07-27",
+    "time": "2:08:49",
+    "address": "562 WOODBINE DR San Rafael CA 94903",
+    "lat": "38.0144",
+    "long": "-122.5556",
+    "station": {
+      "number": "",
+      "address": null
+    }
+  },
+  {
+    "id": "2007-0703761",
+    "date": "2007-08-16",
+    "time": "17:48:39",
+    "address": "90 WINDWARD WAY San Rafael CA 94901",
+    "lat": "37.9593",
+    "long": "-122.4998",
+    "station": {
+      "number": "1",
+      "address": null
+    }
+  },
+  {
+    "id": "2007-0703508",
+    "date": "2007-07-31",
+    "time": "16:12:11",
+    "address": "1408 MISSION AVE San Rafael CA 94901",
+    "lat": "37.9757",
+    "long": "-122.532",
+    "station": {
+      "number": "1",
+      "address": null
+    }
+  },
+  {
+    "id": "2009-0900552",
+    "date": "2009-06-29",
+    "time": "23:54:43",
+    "address": "755 IDYLBERRY RD San Rafael CA 94903",
+    "lat": "38.0274",
+    "long": "-122.5585",
+    "station": {
+      "number": "8",
+      "address": null
+    }
+  },
+  {
+    "id": "2009-0900547",
+    "date": "2009-06-26",
+    "time": "23:08:44",
+    "address": "101 PIKES PEAK DR San Rafael CA 94903",
+    "lat": "38.0321",
+    "long": "-122.574",
+    "station": {
+      "number": "8",
+      "address": null
+    }
+  },
+  {
+    "id": "2008-0805035",
+    "date": "2008-10-11",
+    "time": "23:57:34",
+    "address": "33 OAKMONT AVE San Rafael CA 94901",
+    "lat": "37.9848",
+    "long": "-122.5343",
+    "station": {
+      "number": "1",
+      "address": null
+    }
+  },
+  {
+    "id": "2008-0804274",
+    "date": "2008-08-28",
+    "time": "18:04:08",
+    "address": "62 WOODS ST San Rafael CA 94901",
+    "lat": "37.97",
+    "long": "-122.5366",
+    "station": {
+      "number": "1",
+      "address": null
+    }
+  },
+  {
+    "id": "2008-0803405",
+    "date": "2008-07-08",
+    "time": "5:27:42",
+    "address": "165 LOS RANCHITOS RD San Rafael CA 94903",
+    "lat": "37.9953",
+    "long": "-122.5414",
+    "station": {
+      "number": "1",
+      "address": null
+    }
+  },
+  {
+    "id": "2008-0803397",
+    "date": "2008-07-07",
+    "time": "15:38:30",
+    "address": "395 ORANGE BLOSSOM LN San Rafael CA 94903",
+    "lat": "38.0143",
+    "long": "-122.5485",
+    "station": {
+      "number": "",
+      "address": null
+    }
+  },
+  {
+    "id": "2009-0900797",
+    "date": "2009-09-04",
+    "time": "0:00:00",
+    "address": "99 MONTECILLO RD San Rafael CA 94903",
+    "lat": "38.0046",
+    "long": "-122.5553",
+    "station": {
+      "number": "8",
+      "address": null
+    }
+  },
+  {
+    "id": "2011-1103016",
+    "date": "2011-06-15",
+    "time": "9:29:48",
+    "address": "000 LOVELL AVE SAN RAFAEL CA 94901",
+    "lat": "37.9644",
+    "long": "-122.5222",
+    "station": {
+      "number": "1",
+      "address": null
+    }
+  },
+  {
+    "id": "2011-1102978",
+    "date": "2011-06-13",
+    "time": "14:11:02",
+    "address": "1408 MISSION AVE SAN RAFAEL CA 94901",
+    "lat": "37.9757",
+    "long": "-122.532",
+    "station": {
+      "number": "1",
+      "address": null
+    }
+  },
+  {
+    "id": "2011-1102974",
+    "date": "2011-06-13",
+    "time": "12:59:15",
+    "address": "1408 MISSION AVE SAN RAFAEL CA 94901",
+    "lat": "37.9757",
+    "long": "-122.532",
+    "station": {
+      "number": "1",
+      "address": null
+    }
+  },
+  {
+    "id": "2010-1004638",
+    "date": "2010-09-06",
+    "time": "17:17:16",
+    "address": "11 SANTA MARGARITA DR San Rafael CA 94901",
+    "lat": "37.9769",
+    "long": "-122.5501",
+    "station": {
+      "number": "1",
+      "address": null
+    }
+  },
+  {
+    "id": "2010-1003637",
+    "date": "2010-07-13",
+    "time": "2:33:37",
+    "address": "1125 B ST SAN RAFAEL CA 94901",
+    "lat": "37.9753",
+    "long": "-122.5293",
+    "station": {
+      "number": "1",
+      "address": null
+    }
+  },
+  {
+    "id": "2012-1203330",
+    "date": "2012-06-17",
+    "time": "2:47:01",
+    "address": "773 LINCOLN AVE SAN RAFAEL CA 94901",
+    "lat": "37.9681",
+    "long": "-122.5247",
+    "station": {
+      "number": "1",
+      "address": null
+    }
+  },
+  {
+    "id": "2012-1203131",
+    "date": "2012-06-07",
+    "time": "15:08:23",
+    "address": "700 DU BOIS ST SAN RAFAEL CA 94901",
+    "lat": "37.967",
+    "long": "-122.5203",
+    "station": {
+      "number": "1",
+      "address": null
+    }
+  },
+  {
+    "id": "2012-1202903",
+    "date": "2012-05-27",
+    "time": "21:57:25",
+    "address": "675 ANDERSEN DR San Rafael CA 94901",
+    "lat": "37.9623",
+    "long": "-122.5145",
+    "station": {
+      "number": "1",
+      "address": null
+    }
+  },
+  {
+    "id": "2011-1104205",
+    "date": "2011-08-17",
+    "time": "13:03:27",
+    "address": "99 MONTECILLO RD San Rafael CA 94903",
+    "lat": "38.0046",
+    "long": "-122.5553",
+    "station": {
+      "number": "",
+      "address": null
+    }
+  },
+  {
+    "id": "2013-1300331",
+    "date": "2013-06-07",
+    "time": "17:36:43",
+    "address": "215 CAPTAIN NURSE NOVATO CA 94949",
+    "lat": "38.048",
+    "long": "-122.5297",
+    "station": {
+      "number": "8",
+      "address": null
+    }
+  },
+  {
+    "id": "2013-1302795",
+    "date": "2013-05-20",
+    "time": "23:35:28",
+    "address": "1408 MISSION AVE SAN RAFAEL CA 94901",
+    "lat": "37.9757",
+    "long": "-122.532",
+    "station": {
+      "number": "1",
+      "address": null
+    }
+  },
+  {
+    "id": "2013-1300295",
+    "date": "2013-05-20",
+    "time": "12:19:37",
+    "address": "13 BAYPOINT DR SAN RAFAEL CA 94901",
+    "lat": "37.9625",
+    "long": "-122.4968",
+    "station": {
+      "number": "",
+      "address": null
+    }
+  },
+  {
+    "id": "2013-1302695",
+    "date": "2013-05-16",
+    "time": "19:17:07",
+    "address": "316 SANTA MARGARITA DR SAN RAFAEL CA 94901",
+    "lat": "37.9785",
+    "long": "-122.5476",
+    "station": {
+      "number": "1",
+      "address": null
+    }
+  },
+  {
+    "id": "2013-1302346",
+    "date": "2013-04-29",
+    "time": "2:04:07",
+    "address": "240 FRANCISCO W SAN RAFAEL CA 94901",
+    "lat": "37.9697",
+    "long": "-122.523",
+    "station": {
+      "number": "1",
+      "address": null
+    }
+  },
+  {
+    "id": "2013-1302121",
+    "date": "2013-04-18",
+    "time": "11:49:01",
+    "address": "1408 MISSION AVE SAN RAFAEL CA 94901",
+    "lat": "37.9757",
+    "long": "-122.532",
+    "station": {
+      "number": "1",
+      "address": null
+    }
+  },
+  {
+    "id": "2012-1205456",
+    "date": "2012-10-03",
+    "time": "14:46:50",
+    "address": "111 MCINNIS SAN RAFAEL CA 94903",
+    "lat": "38.0054",
+    "long": "-122.5307",
+    "station": {
+      "number": "",
+      "address": null
+    }
+  },
+  {
+    "id": "2012-1204783",
+    "date": "2012-08-30",
+    "time": "13:00:46",
+    "address": "100 WINDWARD WAY San Rafael CA 94901",
+    "lat": "37.9588",
+    "long": "-122.499",
+    "station": {
+      "number": "4",
+      "address": null
+    }
+  },
+  {
+    "id": "2014-1403734",
+    "date": "2014-06-28",
+    "time": "21:24:26",
+    "address": "1312 MISSION AVE SAN RAFAEL CA 94901",
+    "lat": "37.9757",
+    "long": "-122.531",
+    "station": {
+      "number": "1",
+      "address": null
+    }
+  },
+  {
+    "id": "2014-1403411",
+    "date": "2014-06-15",
+    "time": "10:52:01",
+    "address": "220 ALAMEDA DEL PRADO Navato CA 94945",
+    "lat": "38.0502",
+    "long": "-122.5321",
+    "station": {
+      "number": "",
+      "address": null
+    }
+  },
+  {
+    "id": "2014-1400429",
+    "date": "2014-06-15",
+    "time": "10:52:01",
+    "address": "220 ALAMEDA DEL PRADO San rafael CA 94903",
+    "lat": "37.9957",
+    "long": "-122.539",
+    "station": {
+      "number": "8",
+      "address": null
+    }
+  },
+  {
+    "id": "2014-1403366",
+    "date": "2014-06-13",
+    "time": "12:05:00",
+    "address": "00 YOSEMITE RD SAN RAFAEL CA 94903",
+    "lat": "38.0135",
+    "long": "-122.5316",
+    "station": {
+      "number": "",
+      "address": null
+    }
+  },
+  {
+    "id": "2014-1400422",
+    "date": "2014-06-13",
+    "time": "12:05:00",
+    "address": "00 YOSEMITE RD SAN RAFAEL CA 94903",
+    "lat": "38.0135",
+    "long": "-122.5316",
+    "station": {
+      "number": "8",
+      "address": null
+    }
+  },
+  {
+    "id": "2014-1402818",
+    "date": "2014-05-18",
+    "time": "3:16:45",
+    "address": "200 SPRING GROVE AVE SAN RAFAEL CA 94901",
+    "lat": "37.9723",
+    "long": "-122.5463",
+    "station": {
+      "number": "1",
+      "address": null
+    }
+  },
+  {
+    "id": "2014-1402782",
+    "date": "2014-05-16",
+    "time": "9:46:17",
+    "address": "6 BLUE OAK CT San Rafael CA 94903",
+    "lat": "38.0358",
+    "long": "-122.5882",
+    "station": {
+      "number": "58",
+      "address": null
+    }
+  },
+  {
+    "id": "2014-1400303",
+    "date": "2014-05-16",
+    "time": "9:46:17",
+    "address": "6 BLUE OAK CT San Rafael CA 94903",
+    "lat": "38.0358",
+    "long": "-122.5882",
+    "station": {
+      "number": "",
+      "address": null
+    }
+  },
+  {
+    "id": "2014-1400635",
+    "date": "2014-01-31",
+    "time": "13:19:14",
+    "address": "15 SAN MARIN DR NOVATO CA 94945",
+    "lat": "38.1189",
+    "long": "-122.6097",
+    "station": {
+      "number": "1",
+      "address": null
+    }
+  },
+  {
+    "id": "2014-1400031",
+    "date": "2014-01-15",
+    "time": "16:49:08",
+    "address": "1717 LAS GALLINAS AVE SAN RAFAEL CA 94903",
+    "lat": "38.0156",
+    "long": "-122.5496",
+    "station": {
+      "number": "",
+      "address": null
+    }
+  },
+  {
+    "id": "2013-1300781",
+    "date": "2013-12-22",
+    "time": "22:05:30",
+    "address": "6 CARMEL DR NOVATO CA 94949",
+    "lat": "38.1131",
+    "long": "-122.5774",
+    "station": {
+      "number": "8",
+      "address": null
+    }
+  },
+  {
+    "id": "2013-1300779",
+    "date": "2013-12-21",
+    "time": "12:05:05",
+    "address": "1200 HAMILTON NOVATO CA 94949",
+    "lat": "38.0612",
+    "long": "-122.5287",
+    "station": {
+      "number": "8",
+      "address": null
+    }
+  },
+  {
+    "id": "2013-1305740",
+    "date": "2013-10-12",
+    "time": "16:15:20",
+    "address": "470 DU BOIS ST SAN RAFAEL CA 94901",
+    "lat": "37.9629",
+    "long": "-122.5153",
+    "station": {
+      "number": "1",
+      "address": null
+    }
+  },
+  {
+    "id": "2013-1300535",
+    "date": "2013-08-27",
+    "time": "13:11:44",
+    "address": "1000 CABRO NOVATO CA 94945",
+    "lat": "38.0968",
+    "long": "-122.609",
+    "station": {
+      "number": "",
+      "address": null
+    }
+  },
+  {
+    "id": "2013-1304562",
+    "date": "2013-08-16",
+    "time": "14:38:16",
+    "address": "720 LINCOLN AVE SAN RAFAEL CA 94901",
+    "lat": "37.968",
+    "long": "-122.5226",
+    "station": {
+      "number": "1",
+      "address": null
+    }
+  },
+  {
+    "id": "2015-1503847",
+    "date": "2015-06-18",
+    "time": "20:08:51",
+    "address": "2500 DEER VALLEY RD San Rafael CA 94903",
+    "lat": "38.0215",
+    "long": "-122.5303",
+    "station": {
+      "number": "",
+      "address": null
+    }
+  },
+  {
+    "id": "2015-1503059",
+    "date": "2015-05-15",
+    "time": "16:42:37",
+    "address": "200 SMITH RANCH RD SAN RAFAEL CA 94903",
+    "lat": "38.0193",
+    "long": "-122.5336",
+    "station": {
+      "number": "",
+      "address": null
+    }
+  },
+  {
+    "id": "2015-1503001",
+    "date": "2015-05-12",
+    "time": "17:20:23",
+    "address": "3501 CIVIC CENTER DR SAN RAFAEL CA 94903",
+    "lat": "37.9977",
+    "long": "-122.5304",
+    "station": {
+      "number": "1",
+      "address": null
+    }
+  },
+  {
+    "id": "2014-1404919",
+    "date": "2014-08-23",
+    "time": "15:21:04",
+    "address": "599 WILLIAM AVE LARKSPUR CA 94939",
+    "lat": "37.9362",
+    "long": "-122.5243",
+    "station": {
+      "number": "",
+      "address": null
+    }
+  },
+  {
+    "id": "2014-1404542",
+    "date": "2014-07-31",
+    "time": "21:14:08",
+    "address": "33 CASTLE ROCK AVE WOODACRE CA 94973",
+    "lat": "38.007",
+    "long": "-122.6358",
+    "station": {
+      "number": "1",
+      "address": null
+    }
+  },
+  {
+    "id": "2014-1404268",
+    "date": "2014-07-23",
+    "time": "14:44:55",
+    "address": "280 WOODLAND AVE SAN RAFAEL CA 94901",
+    "lat": "37.9659",
+    "long": "-122.5249",
+    "station": {
+      "number": "1",
+      "address": null
+    }
+  },
+  {
+    "id": "2014-1403887",
+    "date": "2014-07-05",
+    "time": "16:14:32",
+    "address": "52 PARK RIDGE RD San Rafael CA 94903",
+    "lat": "38.0158",
+    "long": "-122.5512",
+    "station": {
+      "number": "",
+      "address": null
+    }
+  },
+  {
+    "id": "2014-1400500",
+    "date": "2014-07-05",
+    "time": "16:14:32",
+    "address": "52 PARK RIDGE RD San Rafael CA 94903",
+    "lat": "38.0158",
+    "long": "-122.5512",
+    "station": {
+      "number": "8",
+      "address": null
+    }
+  },
+  {
+    "id": "2014-1403812",
+    "date": "2014-07-02",
+    "time": "16:16:14",
+    "address": "33 CASTLE ROCK AVE WOODACRE CA 94973",
+    "lat": "38.007",
+    "long": "-122.6358",
+    "station": {
+      "number": "1",
+      "address": null
+    }
+  },
+  {
+    "id": "2016-8000615",
+    "date": "2016-06-03",
+    "time": "16:05:23",
+    "address": "Marin Valley Drive Novato CA 94949",
+    "lat": "38.0508",
+    "long": "-122.53",
+    "station": {
+      "number": "58",
+      "address": null
+    }
+  },
+  {
+    "id": "2016-8000556",
+    "date": "2016-05-20",
+    "time": "14:39:43",
+    "address": "227 S OAKWOOD DR Novato CA 94947",
+    "lat": "38.0524",
+    "long": "-122.5156",
+    "station": {
+      "number": "MA",
+      "address": null
+    }
+  },
+  {
+    "id": "2016-7502738",
+    "date": "2016-04-30",
+    "time": "19:54:31",
+    "address": "435 LOS CERROS DR Kentfield CA 94904",
+    "lat": "37.9535",
+    "long": "-122.5331",
+    "station": {
+      "number": "MA",
+      "address": null
+    }
+  },
+  {
+    "id": "2015-000860",
+    "date": "2015-09-11",
+    "time": "17:17:09",
+    "address": "99 TODD'S RD NOVATO CA 94949",
+    "lat": "38.0603",
+    "long": "-122.5263",
+    "station": {
+      "number": "58",
+      "address": null
+    }
+  },
+  {
+    "id": "2015-005713",
+    "date": "2015-09-11",
+    "time": "15:39:08",
+    "address": "Latitude: 38.041658 Longitude: -122.537243",
+    "lat": "38.025",
+    "long": "-122.5384",
+    "station": {
+      "number": "58",
+      "address": null
+    }
+  },
+  {
+    "id": "2015-000859",
+    "date": "2015-09-11",
+    "time": "15:39:08",
+    "address": "265 Johnstone Dr. RD SAN RAFAEL CA 94903",
+    "lat": "38.025",
+    "long": "-122.5384",
+    "station": {
+      "number": "58",
+      "address": null
+    }
+  },
+  {
+    "id": "2015-1505172",
+    "date": "2015-08-19",
+    "time": "15:59:09",
+    "address": "42 LOS RANCHITOS RD San Rafael CA 94903",
+    "lat": "37.9912",
+    "long": "-122.5321",
+    "station": {
+      "number": "7",
+      "address": null
+    }
+  },
+  {
+    "id": "2015-1505155",
+    "date": "2015-08-18",
+    "time": "21:17:55",
+    "address": "33 CASTLE ROCK AVE WOODACRE CA 94973",
+    "lat": "38.007",
+    "long": "-122.6358",
+    "station": {
+      "number": "1",
+      "address": null
+    }
+  },
+  {
+    "id": "2015-1505047",
+    "date": "2015-08-14",
+    "time": "17:12:23",
+    "address": "1 THORNDALE DR San Rafael CA 94903",
+    "lat": "38.005",
+    "long": "-122.5475",
+    "station": {
+      "number": "6",
+      "address": null
+    }
+  },
+  {
+    "id": "2015-1504896",
+    "date": "2015-08-07",
+    "time": "16:58:13",
+    "address": "524 BRET HARTE RD SAN RAFAEL CA 94901",
+    "lat": "37.9614",
+    "long": "-122.5221",
+    "station": {
+      "number": "1",
+      "address": null
+    }
+  },
+  {
+    "id": "2015-1504800",
+    "date": "2015-08-03",
+    "time": "17:47:16",
+    "address": "1600 N SAN PEDRO RD SAN RAFAEL CA 94901",
+    "lat": "37.9955",
+    "long": "-122.4573",
+    "station": {
+      "number": "5",
+      "address": null
+    }
+  },
+  {
+    "id": "2015-1504769",
+    "date": "2015-08-02",
+    "time": "1:14:19",
+    "address": "668 IRWIN ST SAN RAFAEL CA 94901",
+    "lat": "37.9681",
+    "long": "-122.5212",
+    "station": {
+      "number": "2",
+      "address": null
+    }
+  },
+  {
+    "id": "2015-1504630",
+    "date": "2015-07-27",
+    "time": "14:56:06",
+    "address": "350 SMITH RANCH RD San Rafael CA 94903",
+    "lat": "38.0194",
+    "long": "-122.5227",
+    "station": {
+      "number": "8",
+      "address": null
+    }
+  },
+  {
+    "id": "2015-1504222",
+    "date": "2015-07-05",
+    "time": "17:26:53",
+    "address": "500 UPPER RD SANTA VENICIA CA 94903",
+    "lat": "38.0148",
+    "long": "-122.5056",
+    "station": {
+      "number": "7",
+      "address": null
+    }
+  },
+  {
+    "id": "2017-7502782",
+    "date": "2017-04-23",
+    "time": "16:37:21",
+    "address": "1 SAINT VINCENTS DR San Rafael CA 94903",
+    "lat": "38.0341",
+    "long": "-122.5251",
+    "station": {
+      "number": "58",
+      "address": null
+    }
+  },
+  {
+    "id": "2016-7506212",
+    "date": "2016-09-30",
+    "time": "0:00:00",
+    "address": "100 MARIN VALLEY DR Novato CA 94949",
+    "lat": "38.0438",
+    "long": "-122.5233",
+    "station": {
+      "number": "MA",
+      "address": null
+    }
+  },
+  {
+    "id": "2016-7506155",
+    "date": "2016-09-27",
+    "time": "18:05:50",
+    "address": "20 OLIVA DR # B Novato CA 94947",
+    "lat": "38.1136",
+    "long": "-122.5962",
+    "station": {
+      "number": "MA",
+      "address": null
+    }
+  },
+  {
+    "id": "2016-7506127",
+    "date": "2016-09-26",
+    "time": "18:28:32",
+    "address": "Shevelin Rd/ Shon Dr Novato CA 94947",
+    "lat": "38.0871",
+    "long": "-122.5664",
+    "station": {
+      "number": "MA",
+      "address": null
+    }
+  },
+  {
+    "id": "2016-7504453",
+    "date": "2016-07-15",
+    "time": "13:10:26",
+    "address": "1 SAINT VINCENTS DR San Rafael CA 94903",
+    "lat": "38.0341",
+    "long": "-122.5251",
+    "station": {
+      "number": "58",
+      "address": null
+    }
+  }
+]

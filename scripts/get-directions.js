@@ -27,6 +27,7 @@ const getDirections = (start, end) => {
 
   return http.get(url).then(response => {
     if (response.status !== 200) throw new Error(response.status)
+    if (response.data.error_message) throw new Error(response.data.error_message)
 
     let steps
     try {
@@ -52,7 +53,7 @@ const getDirections = (start, end) => {
 }
 
 const fetchDirections = (fire, cb) => {
-  const start = fire.address
+  const start = fire.address.replace(/#/g, '')
   const end = `${fire.station.address} San Rafael CA`
   getDirections(start, end).then(steps => {
     const feature = {
@@ -89,19 +90,31 @@ Promise.all(files).then(([fires, stations]) => {
   })
 
   const q = queue(2)
-
+  const failed = []
   directions.forEach(fire => {
-    if (fire.station.address) q.defer(fetchDirections, fire)
+    if (!fire.station.address) {
+      failed.push(fire)
+      return
+    }
+
+    q.defer(fetchDirections, fire)
   })
 
   q.awaitAll((err, features) => {
-    const dest = dataPath('driving.geojson')
+    const dest = dataPath('directions.json')
+    const fail = dataPath('failed.json')
     const collection = {
       type: 'FeatureCollection',
       features
     }
-    write(dest, JSON.stringify(collection)).then(() => {
-      console.log(`done! wrote directions to ${dest}`)
+    Promise.all([
+      write(dest, JSON.stringify(collection, null, 2)),
+      write(fail, JSON.stringify(failed, null, 2))
+    ]).then(() => {
+      const noStation = failed.filter(f => f.station.address === null)
+      console.log(`done! wrote directions for ${features.length} fires to ${dest}`)
+      console.log(`\there were ${directions.length} in the original data`)
+      console.log(`\twrote the ${failed.length} unprocessed fires to ${fail}, ${noStation.length} of them do not have any station address`)
     })
   })
 })
