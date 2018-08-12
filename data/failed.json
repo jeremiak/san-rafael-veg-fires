@@ -1054,5 +1054,29 @@
       "number": "58",
       "address": null
     }
+  },
+  {
+    "id": "2010-1003474",
+    "date": "2010-07-04",
+    "time": "5:28:02",
+    "address": "HWY 101/LUCAS VALLEY RD SAN RAFAEL CA 94901",
+    "lat": "38.0238",
+    "long": "-122.5442",
+    "station": {
+      "number": "57",
+      "address": "31 Joseph Ct"
+    }
+  },
+  {
+    "id": "2016-7504805",
+    "date": "2016-07-31",
+    "time": "1:33:23",
+    "address": "SB Hwy 101 at Merrydale San Rafael CA 94903",
+    "lat": "38.0102",
+    "long": "-122.5421",
+    "station": {
+      "number": "56",
+      "address": "650 Del Ganado Road"
+    }
   }
 ]

@@ -1,0 +1,61 @@
+<!html doctype>
+<html lang="en">
+  <head>
+    <title>Vegetation fires that the San Rafael Fire Department responded to</title>
+    <style>
+    
+    </style>
+  </head>
+  <body>
+    <main>
+      <div id="viz"></div>
+    </main>
+    <script src="https://unpkg.com/d3@5.5.0/dist/d3.min.js"></script>
+    <script>
+      d3.json('./data/directions.json').then(data => {
+        const height = 350
+        const width = 600
+        const svg = d3.select('#viz').append('svg').attr('height', height).attr('width', width)
+        const projection = d3.geoMercator()
+          .center([-122.531111, 37.973611])
+          .scale(30000)
+          .translate([ width / 2, height / 2])
+        const path = d3.geoPath().projection(projection)
+
+        svg.selectAll('path')
+          .data(data.features)
+            .enter()
+              .append('path')
+                .attr('class', 'direction')
+                .attr('d', d => path(d))
+                .attr('fill', 'none')
+                .attr('stroke', 'none')
+        
+        const transition = d3.transition().duration(5000)
+        const monthColors = month => {
+          const colors = ['red', 'green', 'blue', 'yellow', 'orange', 'purple', 'brown', 'black', 'gold', 'salmon']
+
+          return colors[month - 1]
+        }
+
+        svg.selectAll('path.direction').each(function(d, i) {
+          const sel = d3.select(this)
+          const { date } = d.properties
+          const length = this.getTotalLength()
+          const month = (new Date(date)).getMonth() + 1
+
+          sel.attr('stroke-dasharray', length)
+              .attr('stroke-dashoffset', -1 * length)
+              .attr('stroke', monthColors(month))
+
+          sel.transition(transition)
+            .attr('stroke-dashoffset', 0)
+          console.log({ d, length, month })
+        })
+
+      }).catch(err => {
+        console.error('Something went wrong', err)
+      })
+    </script>
+  </body>
+</html>

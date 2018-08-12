@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run directions",
+    "start": "live-server .",
     "directions": "node scripts/get-directions.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,6 +16,8 @@
     "axios": "^0.18.0",
     "d3": "^5.0.0",
     "d3-queue": "^3.0.7",
-    "delay-map": "^1.0.1"
+    "delay-map": "^1.0.1",
+    "live-server": "^1.2.0",
+    "simplify-geojson": "^1.0.3"
   }
 }

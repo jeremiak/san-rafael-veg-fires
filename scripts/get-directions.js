@@ -2,11 +2,12 @@ const fs = require('fs')
 const path = require('path')
 const util = require('util')
 
+const http = require('axios')
 const d3 = require('d3')
 const { queue } = require('d3-queue')
 const delayMap = require('delay-map')
-const http = require('axios')
 const polyline = require('@mapbox/polyline')
+const simplify = require('simplify-geojson')
 
 const dataPath = file => path.join(__dirname, '../data', file)
 const read = util.promisify(fs.readFile)
@@ -72,9 +73,9 @@ const fetchDirections = (fire, cb) => {
 
 Promise.all(files).then(([fires, stations]) => {
   const directions = fires.map(fire => {
-    const matchingStation = stations.find(s => (
+    const matchingStation = stations.find(s =>
       s['Station number'] === fire.StationNumber
-    ))
+    )
     return {
       id: fire.IncidentNumber,
       date: fire.IncidentDate,
@@ -103,13 +104,14 @@ Promise.all(files).then(([fires, stations]) => {
   q.awaitAll((err, features) => {
     const dest = dataPath('directions.json')
     const fail = dataPath('failed.json')
-    const collection = {
+    const collection = simplify({
       type: 'FeatureCollection',
-      features
-    }
+      features: features.filter(f => f.geometry.coordinates),
+    }, 0.001)
+    const withoutGeo = features.filter(f => !f.geometry.coordinates).map(f => f.properties)
     Promise.all([
       write(dest, JSON.stringify(collection, null, 2)),
-      write(fail, JSON.stringify(failed, null, 2))
+      write(fail, JSON.stringify(failed.concat(withoutGeo), null, 2))
     ]).then(() => {
       const noStation = failed.filter(f => f.station.address === null)
       console.log(`done! wrote directions for ${features.length} fires to ${dest}`)
